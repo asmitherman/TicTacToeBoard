@@ -9,7 +9,7 @@ before_install:
   - cd googletest/googletest
   - cd make
   - make
-  - cd ../../../../../..
+  - cd ../../../..
 
 script:
   - make clean
